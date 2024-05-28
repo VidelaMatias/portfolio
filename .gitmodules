@@ -1,0 +1,3 @@
+[submodule "projects/Starwars"]
+	path = projects/Starwars
+	url = https://github.com/VidelaMatias/Starwars-bank
