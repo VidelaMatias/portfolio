@@ -28,14 +28,14 @@ The application has different views, options and different information depending
 - Create, Edit, remove and view past/future races
 
   **Technologies Stack**
--React v18.2
--NextJS v13.4
--Node v20
--TailwindCSS
--Eslint
--Typescript
--i18Next | react-i18next |next-i18next
--React Router | React Router DOM
--React Hooks & Custom Hooks
--Testing with React Testing Library & Jest
--Fortawesome
+- React v18.2
+- NextJS v13.4
+- Node v20
+- TailwindCSS
+- Eslint
+- Typescript
+- i18Next | react-i18next |next-i18next
+- React Router | React Router DOM
+- React Hooks & Custom Hooks
+- Testing with React Testing Library & Jest
+- Fortawesome
