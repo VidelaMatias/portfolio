@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
+npm run dev to run the project
 
-First, run the development server:
+**##Project Documentation**
+TrainingTeam is a webapp whose objective is the interaction between a Professor and Athletes in a training group. 
+The application has different views, options and different information depending on the role of the user.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Roles:**
+- Professor
+- Athlete
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**As professor user you can do:**
+- Login / Register / Recover password | Logout
+- Create, edit, remove workouts for each discipline
+- Create, edit, remove disciplines of sports.
+- Add, edit, remove athletes to your group
+- Assign specifics workouts to each athlete
+- Visualize all the above mentioned information in different interactive views and with performing designs.
+- Section with My account to input professor information and details so athletes can check it.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**As Athlete user you can do:**
+- Login / Register / Recover password | Logout
+- Send email to professor for questions
+- Check if professor has assigned any workout in a calendar
+- Visualize current, past and future workouts assigned
+- Join to a professor
+- Visualize friends
+- Create, Edit, remove and view past/future races
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  **Technologies Stack**
+-React v18.2
+-NextJS v13.4
+-Node v20
+-TailwindCSS
+-Eslint
+-Typescript
+-i18Next | react-i18next |next-i18next
+-React Router | React Router DOM
+-React Hooks & Custom Hooks
+-Testing with React Testing Library & Jest
+-Fortawesome
