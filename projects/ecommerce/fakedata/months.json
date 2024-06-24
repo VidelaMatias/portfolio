@@ -1,0 +1,14 @@
+[
+    {"value":"Enero", "id":1}, 
+    {"value":"Febrero", "id":2},
+    {"value":"Marzo", "id":3}, 
+    {"value":"Abril", "id":4}, 
+    { "value":"Mayo", "id":5},
+    {"value":"Junio", "id":6}, 
+    { "value":"Julio", "id":7},
+    { "value":"Agosto", "id":8}, 
+    {"value":"Septiembre", "id":9},
+    {"value":"Octubre", "id":10}, 
+    {"value":"Noviembre", "id":11}, 
+    { "value":"Diciembre", "id":12}
+]
